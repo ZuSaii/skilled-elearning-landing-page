@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.category-first-and-second-column,
+.information-site {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    width: 100%;
+    margin: 24px 0px;
+}
+
+nav {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-logo-get-started,
+.header-logo-get-started {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-logo-get-started img,
+.header-logo-get-started img {
+    width: 92px;
+}
+
+.footer-get-started,
+.header-get-started, 
+.information-get-started {
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    box-shadow:  0px 10px 10px 0px #00000019;
+    display: inline;
+    color: white;
+    border-radius: 24px;
+    background-color: green;
+    padding: 16px 32px;
+    border: 0px;
+}
+
+
+.information-get-started {
+    width: 150px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+
+}
+
+.header-get-started {
+    background-color: #13183F;
+}
+
+.information-site {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.information-h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.information-title {
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.information-description {
+    font-size: 12px;
+    margin-bottom: 36px;
+    font-weight: 500;
+    color: #83869A;
+}
+
+.information-women {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.category {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    width: 100%;
+}
+
+.category-first-and-second-column {
+    padding-top: 64px;
+    padding-bottom: 144px;
+}
+
+.category-first-column-design,
+.category-first-column-animation,
+.category-second-column-photography,
+.category-second-column-crypto,
+.category-second-column-business,
+.category-title {
+    background-color: white;    
+    border-radius: 16px;
+    padding: 64px 32px 40px 32px;
+    width: 350px;
+}
+
+
+
+footer {
+    background-color: #13183F;
+    width: 100%;
+}
+
+.footer-logo-ancre {
+    width: 80% ;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 24px 0px;
+}
+
+.footer-get-started {
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+
+}
